@@ -81,8 +81,8 @@ gen_toolchain(){
 	then
 		git clone --depth=1 https://github.com/GengKapak/GengKapak-clang clang
 	else
-		git clone --depth=1 https://github.com/ZyCromerZ/aarch64-linux-android-4.9
-		git clone --depth=1 https://github.com/ZyCromerZ/arm-linux-androideabi-4.9
+		git clone --depth=1 https://github.com/chips-project/aarch64-elf gcc64
+		git clone --depth=1 https://github.com/chips-project/arm-eabi gcc32
 	fi
 		git clone --depth=1 https://github.com/osm0sis/AnyKernel3 -b master anykernel
 }
