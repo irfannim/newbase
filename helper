@@ -41,7 +41,7 @@ send_msg(){
 send_file(){
 	print "Sending file..." green
 	curl -F chat_id="${chat_id}" \
-		-F caption="Build Berhasil! | Nobita | #funproject" \
+		-F caption="Build Berhasil! | FOXY | #funproject" \
 		-F document=@"${1}" \
 		 https://api.telegram.org/bot"${bot_token}"/sendDocument
 }
@@ -84,7 +84,7 @@ gen_toolchain(){
 		git clone --depth=1 https://github.com/xiangfeidexiaohuo/aarch64-linux-android-4.9 gcc64
 		git clone --depth=1 https://github.com/xiangfeidexiaohuo/arm-linux-androideabi-4.9 gcc32
 	fi
-		git clone --depth=1 https://github.com/osm0sis/AnyKernel3 -b master anykernel
+		git clone --depth=1 https://github.com/irfannim/AnyKernel3 -b foxy anykernel
 }
 
 build(){

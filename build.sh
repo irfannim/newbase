@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export KERNELNAME=fan
+export KERNELNAME=foxy
 
-export LOCALVERSION=test
+export LOCALVERSION=
 
 export KBUILD_BUILD_USER=irfannim
 
